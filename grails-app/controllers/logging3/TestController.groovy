@@ -1,16 +1,13 @@
 package logging3
 
-import org.apache.logging.slf4j.Log4jLogger
-
 
 class TestController {
 
     def index() {
-        log.debug("DEBUG")
-        log.error("Err")
-        log.info("inf")
-        log.warn("warn")
+        log.debug("Debug")
+        log.error("Error")
+        log.info("Info")
+        log.warn("Warning")
         render "Yes!"
-        Log4jLogger
     }
 }
